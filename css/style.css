@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  width: 80%;
+  height: 400px;
+  background-color: #eee;
+  margin: 20px;
+  padding: 50px;
+}
+.div1 > h1 {
+  background-color: rgb(190, 21, 21);
+  width: 300px;
+  height: 200px;
+  color: white;
+  text-align: center;
+}
+#span1 {
+  font-family: fantasy;
+  font-weight: 100;
+  font-size: 5rem;
+}
+#span2 {
+  font-weight: 100;
+  font-size: 3.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #eee;
+}
+.div1 > p {
+  width: 300px;
+  height: 70px;
+  color: rgb(85, 74, 74);
+  font-weight: bold;
+  font-style: italic;
+}
+#img1 {
+  width: 100%;
+  box-sizing: border-box;
+  height: 100%;
+}
+.div1 {
+  width: 50%;
+}
+.div1 > button {
+  border-radius: 60px;
+  background-color: rgb(190, 21, 21);
+  height: 30px;
+  color: #eee;
+  text-align: center;
+  border: none;
+  width: 120px;
+}
+.div2 {
+  width: 50%;
+}
+
+.container2 {
+  display: grid;
+  width: 87%;
+  height: 670px;
+  background-color: #eee;
+  margin: 20px;
+  padding: 15px;
+}
+.container2 > h1:nth-child(1) {
+  background-color: red;
+  text-align: center;
+  color: #eee;
+  font-family: sans-serif;
+  height: 40px;
+  width: 100%;
+}
+.con {
+  display: flex;
+}
+#img2 {
+  width: 220px;
+  height: 220px;
+  margin: 30px;
+  padding: 5px;
+  border: 5px solid red;
+}
+
+.con div:nth-child(2) {
+  width: 500px;
+}
+ul {
+  list-style-type: circle;
+}
+
+.container3 {
+  background-color: #eee;
+  width: 90%;
+  height: 640px;
+  margin: 20px;
+}
+
+.header {
+  background-color: rgb(34, 34, 102);
+  height: 100px;
+  color: #eee;
+  display: flex;
+  font-size: 2.5rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  align-items: center;
+  padding: 15px;
+}
+
+#img3 {
+  width: 200px;
+  height: 200px;
+}
+
+.con3 {
+  display: flex;
+}
+
+.main {
+  padding-left: 20px;
+}
+#con {
+  display: flex;
+}
+
+#con p {
+  width: 500px;
+  height: 30px;
+  color: rgb(85, 74, 74);
+  padding-left: 20px;
+}
+.con4 {
+  background-color: rgba(92, 37, 5, 0.849);
+  display: grid;
+  margin: 0px;
+  height: 350px;
+  padding: 10px;
+  width: 300px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.con4 > button {
+  width: 200px;
+  height: 63px;
+  text-align: center;
+  background-color: rgb(34, 34, 102);
+  color: #eee;
+  border: none;
+  font-size: 1.2rem;
+}
+.con5 {
+  background-color: rgb(34, 34, 102);
+  height: 100px;
+  color: #eee;
+  display: flex;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  align-items: center;
+  padding: 15px;
+  margin-top: 10px;
+}
